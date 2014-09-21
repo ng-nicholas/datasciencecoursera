@@ -27,6 +27,7 @@ data, in the same working directory:
 * y_train.txt
 
 The processes carried out by the script are as follows:
+
 1. The script reads the aforementioned files into R and stores them as data frames.
 2. The variable labels in the features data set are attached as column names in the main (X_*) data sets.
 3. Using a regular expression to identify the indices of columns that contain mean and standard deviation estimations, the required columns are subsetted.
